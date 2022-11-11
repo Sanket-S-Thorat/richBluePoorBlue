@@ -1,0 +1,21 @@
+{
+    "name":"richBluePoorBlue",
+    "version":"0.0.1",
+    "manifest_version":3,
+    "description": "A Fun way to check if the twitter profile is paid verified or not.",
+
+    "content_scripts":[
+        {
+            "js": [
+                "scripts/script.js"
+            ],
+            "matches":[
+                "https://twitter.com/*"
+            ]
+        }
+    ],
+
+    "icons":{
+        "128": "/img/tick.png"
+    }
+}
